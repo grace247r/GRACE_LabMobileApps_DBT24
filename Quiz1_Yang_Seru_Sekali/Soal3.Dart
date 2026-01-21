@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'dart:math';
 
-void main(){
+void main() {
   final random = Random();
   int angkaRandom = random.nextInt(100+1);
 
@@ -26,4 +26,5 @@ void main(){
       print("Selamat! Tebakan anda benar");
       print("Jumlah percobaan anda adalah: ${percobaan.length}");
     }
+}
 }
