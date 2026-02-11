@@ -24,7 +24,7 @@ class ChatDetailScreen extends StatelessWidget {
       ),
       body: Column(
         children: [
-          // 1. Daftar Pesan
+          
           Expanded(
             child: ListView.builder(
               padding: const EdgeInsets.all(15),
@@ -36,14 +36,14 @@ class ChatDetailScreen extends StatelessWidget {
             ),
           ),
 
-          // 2. Tempat Ketik Pesan (Input)
+          
           _buildMessageInput(),
         ],
       ),
     );
   }
 
-  // --- Widget Balon Chat ---
+  
   Widget _buildChatBubble(ChatMessage chat) {
     return Align(
       alignment: chat.isMe ? Alignment.centerRight : Alignment.centerLeft,
@@ -71,7 +71,7 @@ class ChatDetailScreen extends StatelessWidget {
     );
   }
 
-  // --- Widget Input Box ---
+  
   Widget _buildMessageInput() {
     return Container(
       padding: const EdgeInsets.all(10),
