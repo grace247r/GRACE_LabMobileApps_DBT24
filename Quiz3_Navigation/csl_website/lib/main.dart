@@ -94,7 +94,6 @@ class HomePage extends StatelessWidget {
                   style: TextStyle(fontSize: 16, color: Colors.black),
                 ),
               ),
-
               const SizedBox(height: 30),
 
               // --- MISSION SECTION ---
@@ -124,7 +123,7 @@ class HomePage extends StatelessWidget {
                 width: double.infinity,
                 height: 250,
                 padding: const EdgeInsets.all(25),
-                color: Colors.black, // Background hitam
+                color: Colors.black, 
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -139,7 +138,7 @@ class HomePage extends StatelessWidget {
                       "BSD City Kavling Edutown I.1",
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
-                        color: Colors.white, // Teks putih
+                        color: Colors.white, 
                       ),
                     ),
                     Text(
