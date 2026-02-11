@@ -46,7 +46,7 @@ class StoryCircle extends StatelessWidget {
           const SizedBox(height: 5),
           Text(
             user.username,
-            style: const TextStyle(color: Colors.white, fontSize: 12),
+            style: const TextStyle(color: Colors.black, fontSize: 12),
           ),
         ],
       ),

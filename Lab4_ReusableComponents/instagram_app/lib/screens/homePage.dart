@@ -27,7 +27,7 @@ class _HomeScreenState extends State<HomeScreen> {
         centerTitle: false,
         leading: const Icon(
           Ionicons.add_outline,
-          color: Colors.white,
+          color: Colors.black,
           size: 28,
         ),
         title: Text(
@@ -54,7 +54,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 },
               ),
             ),
-            const Divider(color: Color(0xFF262626)),
+            
             // Feed Section
             Column(
               children: mockPosts.map((item) => PostTile(post: item)).toList(),
